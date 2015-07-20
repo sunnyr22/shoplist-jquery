@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $("li").click(function() {
-    $(this).closest("li .item").toggleClass('stroked');
+    $(this).find(".item").toggleClass('stroked');
     });
 });
