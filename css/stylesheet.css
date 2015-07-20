@@ -89,6 +89,10 @@ li{
 .item {
 	vertical-align: top;
 }
+.stroked{
+	color: gray;
+	text-decoration: line-through;
+}
 .remove {
 	width: 15px;
   float: right;
